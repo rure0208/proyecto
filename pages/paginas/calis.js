@@ -1,9 +1,9 @@
-
 import React from 'react';
 import {  useState } from 'react'
 import { NumberInput,Tabs ,Modal,Overlay , NativeSelect,Center,Card,Button,Text,TextInput,Container,Space,Table, ScrollArea,Box,Input} from '@mantine/core';
 import { IconPhoto, IconMessageCircle } from '@tabler/icons';
 const Boxes = ({visible,getResult,peso}) => {
+
     const [error,setError]=useState("");
     const [lipidos,setLipidos]=useState(0.0);
     const [kcalP,setkcakP]=useState(0.0);
@@ -62,13 +62,10 @@ const Boxes = ({visible,getResult,peso}) => {
     const [kcalP2,setkcakP2]=useState(0.0);
     const [gkgP2,setgkgP2]=useState(0.0);
     const [gP2,setgP2]=useState(0.0);
-    
-    
     const [lipidos2,setLipidos2]=useState(0.0);
     const [kcalL2,setkcakL2]=useState(0.0);
     const [gkgL2,setgkgL2]=useState(0.0);
     const [gL2,setgL2]=useState(0.0);
-    
     const [carbo2,setCarbo2]=useState(0.0);
     const [kcalC2,setkcakC2]=useState(0.0);
     const [gkgC2,setgkgC2]=useState(0.0);
